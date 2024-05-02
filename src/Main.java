@@ -26,6 +26,10 @@ public class Main {
             throw new Exception("Вы ввели число более 10");
         }
 
+        if (a < 1 || b < 1) {
+            throw new Exception("Вы ввели число менее 1");
+        }
+
         int result;
 
         if (elements[1].equals("+")) {
